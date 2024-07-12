@@ -1,0 +1,237 @@
+*{
+    background: #000;
+    font-family: "montserrat";
+}
+
+
+.logo {
+  height: 10vh;
+  width: 10vh;
+}
+main{
+    margin-top: 20px;
+}
+
+nav {
+  position:fixed;
+  top:0px;
+  width:80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+nav ul li {
+  -webkit-text-fill-color: white;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:rgb(217, 165, 32);
+    transition:0.3s;
+}
+
+.introduction{
+    display: flex;
+}
+.introduction img{
+    width: 40%;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+.intro{
+    padding-top:8%;
+    font-size: 40px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(211, 211, 211);
+}
+span{
+    color:rgb(217, 165, 32);
+}
+
+.information{
+    padding-left:110px;
+    padding-top:30px;
+}
+
+.heading-text{
+    font-weight:bolder;
+}
+p {
+    color:rgb(211, 211, 211);
+    padding-left:40px;
+    padding-right:100px;
+}
+.text-info-logo{
+    display:flex;
+    align-items: center;
+    font-size: xx-large;
+}
+.info-logo img{
+    height:auto;
+    width:60vh;
+    padding-right:150px;
+}
+
+.skills{
+    padding-left: 110px;
+    padding-top:30px;
+}
+
+
+.skill-icon{
+    color:rgb(217, 165, 32);
+}
+
+.skills ul li {
+    -webkit-text-fill-color: white;
+    list-style-type: none;
+    display: block;
+    padding-left:0px;
+    padding-right:145px;
+    text-align: center;
+    padding-top:40px;
+}
+
+.skills ul li p{
+    -webkit-text-fill-color: white;
+    list-style-type: none;
+    display: block;
+    padding-left:50px;
+    padding-right:50px;
+    text-align: center;
+  }
+
+.skills ul{
+    display: flex;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top:5%;
+  }
+.html-logo{
+    width:150px;
+    height:150px;
+}
+.first-row{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.skill-title{
+    padding-left:20px;
+}
+
+.adobe-logo{
+    width:100px;
+    height:100px;
+}
+.skill-2{
+    align-items: center;
+    margin-right:70%;;
+}
+.adobe-row{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.adobe-skills ul{
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 31%;
+    text-align: center;
+    padding-top:20%;
+    padding-bottom: 40px;
+}
+.skill-2 ul li p{
+    padding-left: 100px;
+}
+
+.works{
+    align-items:center;
+}
+
+.srmui{
+    width: 80%;
+    height:auto;
+    padding-left:150px;
+}
+.works-heading{
+    padding-left: 110px;;
+}
+.srmui-desc{
+    padding-left: 150px;
+}
+
+.trazey-ui{
+    width:25%;
+    height:10%;
+    padding:15px;
+    padding-bottom: 0px;
+}
+.traz-1,.traz-4{
+    padding-left: 150px;
+}
+
+.traz-1,.traz-2,.traz-3{
+    padding-top:100px;
+}
+
+.srmui{
+    width:800px;
+    height:70%;
+    padding-left:150px;
+    padding-top:50px;
+}
+
+.srmui-1,.srmui-2,.srmui-3,.srmui-4{
+    padding-right:30px;
+}
+
+.headphone{
+    height:auto;
+    width:60vh;
+    padding-left:150px;
+    padding-top:60px;
+}
+.contact-logo{
+    color:rgb(217, 165, 32);
+}
+.contact-list{
+    font-size: x-large;
+    list-style-type: none;
+    margin:50px;
+    padding:50px;
+    padding-left:140px;
+}
+.contact-list li{
+    list-style-type: none;
+    padding-bottom: 50px;
+    padding-right:35px;
+}
+
+.social-tags {
+    display: flex;
+    align-items: center;
+    padding-left:46%;
+    padding-top:0px;
+    gap:30px;
+    padding-bottom: 4px;
+  }
+.social-item .social-link {
+    color:rgb(211, 211, 211);
+    font-size: 18px;
+  }
+.social-item .social-link:hover { color:rgb(217, 165, 32); }
