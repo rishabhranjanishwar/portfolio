@@ -1,7 +1,77 @@
+/* Default dark mode styles */
+body {
+    background-color: black;
+    color: rgb(211, 211, 211);
+  }
+  
+  /* Light mode styles */
+  body.light-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  body.light-mode nav ul li a {
+    color: black;
+  }
+  
+  body.light-mode nav ul li a:hover {
+    color: rgb(217, 165, 32);
+  }
+  
+  body.light-mode .skill-icon,
+  body.light-mode .html-logo,
+  body.light-mode .social-item .social-link {
+    color: rgb(217, 165, 32);
+  }
+  
+  /* Invert the colors of other elements for light mode */
+  body.light-mode .nav-link li a,
+  body.light-mode h1,
+  body.light-mode h2,
+  body.light-mode h3,
+  body.light-mode h4,
+  body.light-mode h5,
+  body.light-mode h6,
+  body.light-mode p,
+  body.light-mode .contact-logo,
+  body.light-mode .contact-list li {
+    color: black;
+  }
+  
+  body.light-mode .skills ul li p,
+  body.light-mode .social-item .social-link {
+    color: black;
+  }
+  
+  body.light-mode .theme-toggle {
+    background-color: black;
+    color: white;
+  }
+  
+  /* More specific light mode adjustments as needed */
+  
+
+
 *{
-    background: #000;
     font-family: "montserrat";
 }
+
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: rgb(217, 165, 32);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .theme-toggle:focus {
+    outline: none;
+  }
+  
+
 
 
 .logo {
@@ -23,7 +93,6 @@ nav {
   padding-right: 10%;
 }
 nav ul li {
-  -webkit-text-fill-color: white;
   list-style-type: none;
   display: inline-block;
   padding: 10px 20px;
@@ -96,7 +165,6 @@ p {
 }
 
 .skills ul li {
-    -webkit-text-fill-color: white;
     list-style-type: none;
     display: block;
     padding-left:0px;
@@ -106,7 +174,7 @@ p {
 }
 
 .skills ul li p{
-    -webkit-text-fill-color: white;
+    
     list-style-type: none;
     display: block;
     padding-left:50px;
@@ -229,6 +297,7 @@ p {
     padding-top:0px;
     gap:30px;
     padding-bottom: 4px;
+    list-style: none;
   }
 .social-item .social-link {
     color:rgb(211, 211, 211);
